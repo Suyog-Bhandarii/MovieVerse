@@ -1,0 +1,29 @@
+.about-container {
+  width: min(900px, calc(100% - 48px));
+  margin: 36px auto 72px;
+  padding: clamp(28px, 5vw, 48px);
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  background: linear-gradient(180deg, rgba(24, 24, 24, 0.95), rgba(10, 10, 10, 0.98));
+  box-shadow: var(--shadow);
+}
+
+.about-container h1 {
+  color: var(--text);
+  margin-bottom: 18px;
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+}
+
+.about-container p {
+  max-width: 64ch;
+  line-height: 1.75;
+  margin-bottom: 14px;
+  font-size: 1.02rem;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.about-container strong {
+  color: var(--text);
+}
